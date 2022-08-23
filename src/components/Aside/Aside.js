@@ -17,7 +17,7 @@ const Aside = () => (
 	 	</div>
 	 	<div className="make-payment">
 	 		<div className="triangle">
-	 			<div className="triangle-base">Make Payment</div>
+	 			<div className="triangle-base" onClick={() => alert('proceed to payment')}>Make Payment</div>
 	 		</div>
 	 	</div>
 
