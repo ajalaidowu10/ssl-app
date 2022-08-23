@@ -18,6 +18,7 @@
 }
 .make-payment{
 	align-self: center;
+	margin-top: auto;
 	height: 100px;
 }
 .pay-section p {

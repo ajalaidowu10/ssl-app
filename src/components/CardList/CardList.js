@@ -5,7 +5,7 @@ import './CardList.css'
 const CardList = ({ modules }) => {
 	return (
 			<div className="card-list">
-			  <h2>Billing & Account</h2>
+			  <h2>Billing & Accounts</h2>
 				{
 					modules.map((module, i) => (
 						<Card 
