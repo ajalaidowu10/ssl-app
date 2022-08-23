@@ -1,0 +1,10 @@
+.card-list{
+	padding: 0 10px;
+	flex: 75%;
+}
+
+@media (max-width: 800px) {
+  .card-list{
+    flex: 100%;
+  }
+}

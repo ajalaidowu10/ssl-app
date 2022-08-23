@@ -1,0 +1,50 @@
+.aside{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: lightGrey;
+	flex: 25%;
+	padding: 20px;
+	text-align: center;
+}
+
+.heading h4{
+	color: #03034B;
+}
+
+.aside .pay-section{
+ padding: 100px 0;
+ align-self: center;
+}
+.make-payment{
+	align-self: center;
+	height: 100px;
+}
+.pay-section p {
+	color: grey;
+}
+.make-payment .triangle{
+		position: relative;
+	  width: 0; 
+	  height: 0; 
+	  border-left: 100px solid transparent;
+	  border-right: 100px solid transparent;
+	  border-bottom: 25px solid #7372FE;
+}
+.make-payment .triangle-base{
+	  position: absolute;
+	  top: 20px;
+	  left: -110px;
+	  padding: 5px 20px 20px;
+	  width: 180px;
+	  background-color: #7372FE;
+	  color: white;
+	  border-radius: 30px;
+}
+
+
+@media (max-width: 800px) {
+  .aside{
+    flex: 100%;
+  }
+}
