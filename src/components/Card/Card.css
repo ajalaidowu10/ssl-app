@@ -1,0 +1,50 @@
+.card{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 80%;
+}
+
+.content{
+	width: 300px;
+	height: 150px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.right{
+	text-align: right;
+	border-radius: 20px;
+	background-color: blue;
+	background: url('./module_bg.png');
+	background-size: cover;
+}
+
+.right h5{
+	display: inline;
+	padding: 5px 20px;
+	border-radius: 20px;
+	color: white;
+	background-color: darkGreen;
+}
+.left h3{
+	margin: 2px 0 0;
+	font-weight: 500;
+}
+.price{
+	margin: 0;
+}
+
+.price strong{
+	font-size: 1.3em
+}
+
+
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+  }
+  .content{
+  	margin-bottom: 5px;
+  }
+}
